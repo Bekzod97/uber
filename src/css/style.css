@@ -1,0 +1,31 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    height: 50px;
+    background: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    color: #a6a3a3;
+    transition: color 0.3s;
+}
+
