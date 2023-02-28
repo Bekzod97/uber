@@ -2,6 +2,7 @@
     font-family: "Roboto", sans-serif
 }
 
+<<<<<<< HEAD
 .prompt {
     padding-top: 5px;
     margin: 0 auto 33px auto;
@@ -15,20 +16,34 @@
     color: #fff
 }
 
+=======
+>>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 .title {
     font-weight: 700;
     font-size: 38px;
     text-align: center;
     text-transform: uppercase;
+<<<<<<< HEAD
     color: #222
+=======
+    color: #222222;
+    margin-bottom: 19px;
+>>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 }
 
 .subtitle {
     font-weight: 400;
     font-size: 17px;
+<<<<<<< HEAD
     color: #222222;
     text-align: center;
 }
+=======
+    text-align: center;
+    color: #222222;
+}
+
+>>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 
 /* header start */
 
@@ -213,6 +228,7 @@ nav {
     font-size: 38px;
     text-align: center;
     text-transform: uppercase;
+<<<<<<< HEAD
     color: #222;
     margin-bottom: 20px
 }
@@ -220,11 +236,26 @@ nav {
 .reasons__item {
     display: flex;
     margin-bottom: 25px
+=======
+    color: #222222;
+    margin-bottom: 20px;
+
+}
+
+
+
+.reasons__item {
+    display: flex;
+    margin-bottom: 25px;
+>>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 }
 
 .reasons__photo {
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
+=======
+>>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
     justify-content: center;
     align-items: center;
     width: 120%;
@@ -235,7 +266,11 @@ nav {
 }
 
 .reasons__img {
+<<<<<<< HEAD
     display: block
+=======
+    display: block;
+>>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 }
 
 .reasons__desc {
@@ -257,6 +292,7 @@ nav {
 }
 
 /* reason end */
+<<<<<<< HEAD
 
 /* mobile start */
 
@@ -267,4 +303,30 @@ nav {
 }
 
 
+=======
+/* mobile start */
+
+
+.mobile {
+    min-height: 864px;
+    padding: 48px 0 79px 0;
+    background: url("../img/mobile-bg.jpg") center center/cover no-repeat;
+}
+
+.mobile__subtitle {
+    margin-bottom: 30px;
+}
+
+.mobile__item {
+    width: 320px;
+    height: 280px;
+}
+
+.mobile__item-1 {
+    /* background: url("../img/mobile_1.jpg") center center/cover no-repeat; */
+}
+
+
+
+>>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 /* mobile end */
