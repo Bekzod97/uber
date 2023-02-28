@@ -1,50 +1,76 @@
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif
 }
 
+.prompt {
+    padding-top: 5px;
+    margin: 0 auto 33px auto;
+    width: 112px;
+    height: 24px;
+    background: #000;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff
+}
+
+.title {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    color: #222222;
+    text-align: center;
+}
 
 /* header start */
 
 header {
-    position: relative;
+    position: relative
 }
 
 nav {
     width: 100%;
     height: 50px;
-    background: #212121;
+    background: #212121
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
-
     padding: 13px 70px;
     margin: 0;
-    list-style-type: none;
+    list-style-type: none
 }
 
 .menu__item {
     border-right: 2px dashed #000;
-    padding-right: 30px;
+    padding-right: 30px
 }
 
 .menu__item:last-child {
     border-right: none;
-    padding-right: 0;
+    padding-right: 0
 }
 
 .menu__link {
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: none
 }
 
 .menu__link:hover {
     color: #a6a3a3;
-    transition: color 0.3s;
+    transition: color .3s
 }
 
 .subheader {
@@ -53,25 +79,25 @@ nav {
     left: 0;
     width: 100%;
     height: 84px;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .6)
 }
 
 .subheader__link {
     display: block;
     margin-top: 16px;
-    margin-bottom: 6px;
+    margin-bottom: 6px
 }
 
 .subheader__logo {
     display: block;
-    max-width: 100%;
+    max-width: 100%
 }
 
 .subheader__official {
-    opacity: 0.5;
+    opacity: .5;
     font-weight: 400;
     font-size: 13px;
-    color: #FFFFFF;
+    color: #fff
 }
 
 .subheader__call {
@@ -79,21 +105,21 @@ nav {
     margin-bottom: 8px;
     font-weight: 300;
     font-size: 12px;
-    color: #FFFFFF;
+    color: #fff
 }
 
 .subheader__phone {
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #fff;
     text-decoration: none;
-    line-height: 12px;
+    line-height: 12px
 }
 
 .subheader__phone:hover {
-    opacity: 0.6;
-    transition: opacity 0.2s;
+    opacity: .6;
+    transition: opacity .2s
 }
 
 .subheader__btn {
@@ -101,19 +127,19 @@ nav {
     width: 172px;
     height: 46px;
     background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
-    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, .12);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .21);
     border-radius: 4px;
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .subheader__btn:hover {
-    opacity: 0.6;
+    opacity: .6;
     color: #fff
 }
 
@@ -124,11 +150,11 @@ nav {
     margin-bottom: 20px;
     padding: 150px 0 135px 0;
     min-height: 800px;
-    background: url("../img/promo.jpg") center center/cover no-repeat;
+    background: url("../img/promo.jpg") center center/cover no-repeat
 }
 
 .promo__item {
-    text-align: center;
+    text-align: center
 }
 
 .promo__title {
@@ -136,8 +162,8 @@ nav {
     font-size: 60px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 22px;
+    color: #fff;
+    margin-bottom: 22px
 }
 
 .promo__subtitle {
@@ -145,124 +171,100 @@ nav {
     font-size: 36px;
     line-height: 40px;
     text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 20px;
+    color: #fff;
+    margin-bottom: 20px
 }
 
 .promo__text {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* or 133% */
     text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 115px;
+    color: #fff;
+    margin-bottom: 115px
 }
-
 
 .promo__btn {
     width: 259px;
     height: 63px;
-
     background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
-    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, .12);
     border-radius: 4px;
-
     font-weight: 400;
     font-size: 18px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .21);
     border: none;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .promo__btn:hover {
-    opacity: 0.6;
+    opacity: .6;
     color: #fff
 }
 
 /* promo end */
 
 /* reasons start */
-
-.prompt {
-    padding-top: 5px;
-    margin: 0 auto 33px auto;
-    width: 112px;
-    height: 24px;
-    background: #000000;
-    font-weight: 400;
-    font-size: 11px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #FFFFFF;
-}
-
 .reasons__title {
     font-weight: 700;
     font-size: 38px;
     text-align: center;
     text-transform: uppercase;
-    color: #222222;
-    margin-bottom: 20px;
-
-}
-
-.title {
-    font-weight: 700;
-    font-size: 38px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #222222;
+    color: #222;
+    margin-bottom: 20px
 }
 
 .reasons__item {
     display: flex;
-    /* align-content: center; */
-    align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 25px
 }
 
 .reasons__photo {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 120%;
     max-width: 113px;
     height: 113px;
-    background: #1EACC7;
-    border-radius: 100%;
+    background: #1eacc7;
+    border-radius: 100%
 }
 
 .reasons__img {
-    display: block;
-    margin: 0 auto;
-    padding: 0 6px;
+    display: block
 }
 
 .reasons__desc {
-    margin: 0 75px 0 25px;
+    margin: 0 75px 0 25px
 }
 
 .reasons__subtitle {
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
-    color: #1EACC7;
+    color: #1eacc7
 }
 
 .reasons__text {
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
-    color: #202020;
+    color: #202020
 }
 
-/* .icon__err{
-    width: 115px;
-} */
+/* reason end */
 
-/* reasons end */
+/* mobile start */
+
+.mobile {
+    min-height: 864px;
+    padding: 48px 0 80px 0;
+    background: url("../img/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+
+/* mobile end */
