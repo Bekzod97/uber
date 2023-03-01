@@ -1,8 +1,7 @@
 * {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
 }
 
-<<<<<<< HEAD
 .prompt {
     padding-top: 5px;
     margin: 0 auto 33px auto;
@@ -13,48 +12,37 @@
     font-size: 11px;
     text-transform: uppercase;
     text-align: center;
-    color: #fff
+    color: #fff;
 }
 
-=======
->>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 .title {
     font-weight: 700;
     font-size: 38px;
     text-align: center;
     text-transform: uppercase;
-<<<<<<< HEAD
-    color: #222
-=======
-    color: #222222;
+    color: #222;
     margin-bottom: 19px;
->>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 }
 
 .subtitle {
     font-weight: 400;
     font-size: 17px;
-<<<<<<< HEAD
     color: #222222;
-    text-align: center;
-}
-=======
     text-align: center;
     color: #222222;
 }
 
->>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 
 /* header start */
 
 header {
-    position: relative
+    position: relative;
 }
 
 nav {
     width: 100%;
     height: 50px;
-    background: #212121
+    background: #212121;
 }
 
 .menu {
@@ -62,7 +50,7 @@ nav {
     justify-content: space-between;
     padding: 13px 70px;
     margin: 0;
-    list-style-type: none
+    list-style-type: none;
 }
 
 .menu__item {
@@ -72,7 +60,7 @@ nav {
 
 .menu__item:last-child {
     border-right: none;
-    padding-right: 0
+    padding-right: 0;
 }
 
 .menu__link {
@@ -80,12 +68,12 @@ nav {
     font-weight: 300;
     font-size: 15px;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .menu__link:hover {
     color: #a6a3a3;
-    transition: color .3s
+    transition: color .3s;
 }
 
 .subheader {
@@ -94,25 +82,25 @@ nav {
     left: 0;
     width: 100%;
     height: 84px;
-    background-color: rgba(0, 0, 0, .6)
+    background-color: rgba(0, 0, 0, .6);
 }
 
 .subheader__link {
     display: block;
     margin-top: 16px;
-    margin-bottom: 6px
+    margin-bottom: 6px;
 }
 
 .subheader__logo {
     display: block;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .subheader__official {
     opacity: .5;
     font-weight: 400;
     font-size: 13px;
-    color: #fff
+    color: #fff;
 }
 
 .subheader__call {
@@ -120,7 +108,7 @@ nav {
     margin-bottom: 8px;
     font-weight: 300;
     font-size: 12px;
-    color: #fff
+    color: #fff;
 }
 
 .subheader__phone {
@@ -129,7 +117,7 @@ nav {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-    line-height: 12px
+    line-height: 12px;
 }
 
 .subheader__phone:hover {
@@ -150,12 +138,12 @@ nav {
     text-transform: uppercase;
     color: #fff;
     border: none;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .subheader__btn:hover {
     opacity: .6;
-    color: #fff
+    color: #fff;
 }
 
 /* header end */
@@ -165,11 +153,11 @@ nav {
     margin-bottom: 20px;
     padding: 150px 0 135px 0;
     min-height: 800px;
-    background: url("../img/promo.jpg") center center/cover no-repeat
+    background: url("../img/promo.jpg") center center/cover no-repeat;
 }
 
 .promo__item {
-    text-align: center
+    text-align: center;
 }
 
 .promo__title {
@@ -178,7 +166,7 @@ nav {
     line-height: 24px;
     text-transform: uppercase;
     color: #fff;
-    margin-bottom: 22px
+    margin-bottom: 22px;
 }
 
 .promo__subtitle {
@@ -187,7 +175,7 @@ nav {
     line-height: 40px;
     text-transform: uppercase;
     color: #fff;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .promo__text {
@@ -196,7 +184,7 @@ nav {
     line-height: 24px;
     text-align: center;
     color: #fff;
-    margin-bottom: 115px
+    margin-bottom: 115px;
 }
 
 .promo__btn {
@@ -212,12 +200,12 @@ nav {
     color: #fff;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, .21);
     border: none;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .promo__btn:hover {
     opacity: .6;
-    color: #fff
+    color: #fff;
 }
 
 /* promo end */
@@ -228,88 +216,65 @@ nav {
     font-size: 38px;
     text-align: center;
     text-transform: uppercase;
-<<<<<<< HEAD
     color: #222;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .reasons__item {
     display: flex;
-    margin-bottom: 25px
-=======
+    margin-bottom: 25px;
     color: #222222;
     margin-bottom: 20px;
 
 }
 
 
-
 .reasons__item {
     display: flex;
     margin-bottom: 25px;
->>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 }
 
 .reasons__photo {
     display: flex;
-<<<<<<< HEAD
     flex-wrap: wrap;
-=======
->>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
     justify-content: center;
     align-items: center;
     width: 120%;
     max-width: 113px;
     height: 113px;
     background: #1eacc7;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 .reasons__img {
-<<<<<<< HEAD
-    display: block
-=======
     display: block;
->>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 }
 
 .reasons__desc {
-    margin: 0 75px 0 25px
+    margin: 0 75px 0 25px;
 }
 
 .reasons__subtitle {
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
-    color: #1eacc7
+    color: #1eacc7;
 }
 
 .reasons__text {
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
-    color: #202020
+    color: #202020;
 }
 
 /* reason end */
-<<<<<<< HEAD
 
 /* mobile start */
 
 .mobile {
     min-height: 864px;
     padding: 48px 0 80px 0;
-    background: url("../img/mobile_bg.jpg") center center/cover no-repeat;
-}
-
-
-=======
-/* mobile start */
-
-
-.mobile {
-    min-height: 864px;
-    padding: 48px 0 79px 0;
     background: url("../img/mobile-bg.jpg") center center/cover no-repeat;
 }
 
@@ -318,15 +283,67 @@ nav {
 }
 
 .mobile__item {
+    position: relative;
     width: 320px;
     height: 280px;
+    margin: 0 auto 19px auto;
+    padding-top: 90px;
 }
 
 .mobile__item-1 {
-    /* background: url("../img/mobile_1.jpg") center center/cover no-repeat; */
+    background: url("../img/moblie__screen-1.jpg") center center/cover no-repeat;
+}
+
+.mobile__item-2 {
+    background: url("../img/moblie__screen-2.jpg") center center/cover no-repeat;
+}
+
+.mobile__item-3 {
+    background: url("../img/moblie__screen-3.jpg") center center/cover no-repeat;
+}
+
+.mobile__item-4 {
+    background: url("../img/moblie__screen-4.jpg") center center/cover no-repeat;
+}
+
+.mobile__item-5 {
+    background: url("../img/moblie__screen-5.jpg") center center/cover no-repeat;
+}
+
+.mobile__item-6 {
+    background: url("../img/moblie__screen-6.jpg") center center/cover no-repeat;
+}
+
+.mobile__item-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mobile__item-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35px;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    background: #000000;
+    margin: 0 auto;
+    border-radius: 100%;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.mobile__item-plus img {
+    display: block;
 }
 
 
 
->>>>>>> 918b69dc6cf1a07366d1b5487a1560106b8a11cb
 /* mobile end */
