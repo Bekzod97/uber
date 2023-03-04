@@ -336,14 +336,165 @@ nav {
     background: #000000;
     margin: 0 auto;
     border-radius: 100%;
-    padding: 6px;
+    /* padding: 6px; */
     cursor: pointer;
+    transition: 0.3s all;
 }
 
-.mobile__item-plus img {
+.mobile__item-plus::before {
+    content: "";
     display: block;
+    width: 14px;
+    height: 2px;
+    background-color: #1EACC7;
 }
 
-
+.mobile__item-plus::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    height: 14px;
+    width: 2px;
+    background-color: #1EACC7;
+}
 
 /* mobile end */
+
+/* choice start */
+
+.choice {
+    position: relative;
+    /* min-height: 896px; */
+}
+
+.choice__item-1 {
+    min-height: 499px;
+    padding-top: 57px;
+    background-color: #070716;
+}
+
+.choice__prompt {
+    color: #070716;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 28px;
+}
+
+.choice__title {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.choice__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-bottom: 54px;
+}
+
+
+.choice__item-photo {
+    position: absolute;
+    top: 232px;
+    left: 50%;
+    max-width: 759px;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+.choice__automobile-img {
+    display: block;
+    width: 100%;
+}
+
+
+
+.choice__item-3 {
+    min-height: 397px;
+    background: url("../img/choice__item-bg.jpg") center center/cover no-repeat;
+}
+
+.choice__text {
+    padding: 210px 0 137px 0;
+    font-weight: 300;
+    font-size: 17px;
+    color: #222222;
+    text-align: center;
+
+}
+
+/* choice end */
+
+
+/* require start */
+
+.require {
+    padding: 68px 0 84px 0;
+}
+
+.require__block {
+    margin: 33px 0;
+}
+
+.require__block-nmb {
+    margin-bottom: 0;
+}
+
+.require__subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 22px;
+    color: #1CA8C3;
+}
+
+.require__subtitle-red {
+    color: #FF5656;
+}
+
+.require__list {
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+.require__list li {
+    position: relative;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 10px;
+
+}
+
+
+.require__list li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -32px;
+    top: 4px;
+    width: 21px;
+    height: 20px;
+
+    background: url("../icons/check_blue.svg") center center/cover no-repeat;
+}
+
+.require__list-red li::before{
+    background: url("../icons/check_red.svg") center center/cover no-repeat;
+}
+
+
+.require_descr {
+
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+
+    color: #1CA8C3;
+}
+
+/* require end */
